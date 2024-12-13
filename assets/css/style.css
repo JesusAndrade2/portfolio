@@ -81,7 +81,7 @@ html {
 	a {
 		text-decoration: none;
 		&:visited {
-			color: #000000;
+			color: var(--primary-color);
 		}
 		&:hover {
 			text-shadow: 0 0 10px #00ff80, 0 0 20px #00ff80;
@@ -882,7 +882,6 @@ html {
 		padding-top: 2rem;
 	}
 }
-
 /* ============= Media Queries ============= */
 
 @media (width >= 768px) {
